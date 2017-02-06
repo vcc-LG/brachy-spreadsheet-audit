@@ -1,0 +1,12 @@
+pydicom==0.9.9
+matplotlib==1.5.3
+numpy==1.11.2+mkl
+pyodbc==3.0.10
+scipy==0.18.1
+bokeh==0.12.4
+dicom==0.9.9.post1
+pandas==0.19.2
+pyexcel==0.4.3
+pyexcel_xls==0.3.1
+pymongo==3.4.0
+selenium==3.0.2
