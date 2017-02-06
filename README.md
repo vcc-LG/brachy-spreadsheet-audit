@@ -2,7 +2,9 @@ Brachytherapy Vienna spreadsheet audit
 ======================================
 This is a tool to scrape treatment data from the Vienna brachytherapy [spreadsheet](https://www.americanbrachytherapy.org/guidelines/gyn_HDR_BT_docu_sheets.xls) to make it more easily auditable.
 
- ## Setup
+Setup
+-----
+ 
 
  ```
 pip install -r requirements
@@ -14,8 +16,8 @@ You'll need a local server of [MongoDB](https://www.mongodb.com/) running.
 
 There is the option to correlate data in the spreadsheet to RTPLAN files on an Oncentra MasterPlan server. If you want to use this functionality, modify `omppackage\server_config.cfg` to your server specifications.
 
- ## Usage
-
+Usage
+-----
  Make a copy of the directories containing the spreadsheets in `/static`. Then run
 
  ```
@@ -39,7 +41,8 @@ python main.py
  - HR-CTV volume vs. fraction number
 
 
-## Built with
+Built with
+-----
 
 [pyexcel_xls](https://pypi.python.org/pypi/pyexcel-xls/0.3.0)
 
